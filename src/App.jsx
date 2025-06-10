@@ -5,8 +5,10 @@ import Header from './components/Header'
 const App = () => {
   return (
     <>
+    <div id='main'>
     <Header/>
       <Page1/>
+    </div>
     </>
   )
 }
