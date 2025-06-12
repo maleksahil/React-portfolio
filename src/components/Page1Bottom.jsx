@@ -1,7 +1,18 @@
 import React from 'react'
 import circle from '../images/cssda-wotd-white.avif'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 const Page1Bottom = () => {
+
+  useGSAP(function(){
+    gsap.to('img',{
+      rotate:360,
+      duration:2,
+      repeat:-1
+    })
+  })
+
   return (
     <div className='absolute left-0 p-20 flex items-end justify-between bottom-0 w-full'>
       <div>

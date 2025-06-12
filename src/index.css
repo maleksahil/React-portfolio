@@ -15,7 +15,6 @@
 }
 
 #tiltDiv{
-    background-color: red;
     width: fit-content;
-    transform: rotateY(60deg);
+    
 }
