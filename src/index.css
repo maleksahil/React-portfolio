@@ -14,7 +14,17 @@
     perspective: 2000px;
 }
 
+#section2{
+    position: relative;
+    perspective: 3000px;
+}
+
 #tiltDiv{
     width: fit-content;
     
+}
+
+.rotateText{
+  
+    transform-origin: 100% 50%;
 }
